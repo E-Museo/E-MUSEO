@@ -1,0 +1,243 @@
+*{
+	padding: 0%;
+	margin: 0%;
+}
+body{
+	font-family: 'Poppins', sans-serif !important;
+	overflow-x: hidden;
+}
+/*navbar*/
+.navbar{
+}
+.navbar-brand, .nav-link{
+	color: white !important;
+	font-size: 1rem !important;
+}
+.nav-link{
+	font-weight: 400 !important;
+	font-size: 0.875rem !important;
+	opacity: 0.8;
+}
+.nav-link:hover{
+	opacity:1;
+}
+.stick_nav:hover{
+	color:  #FFA322 !important;
+	opacity: 0.8;
+}
+#nav_a{
+	font-weight: 700 !important;
+}
+.navbar-brand img{
+	width: 50px;
+}
+.navbar-toggler{
+	border-color: transparent;
+}
+.dropdown-menu{
+	background-color: #3c3c3c!important;
+	border-radius: 0px !important;
+	border: none!important;
+}
+.dropdown-item{
+	font-size: 0.8rem  !important;
+	color: white !important;
+	font-weight: 300!important;
+	opacity: 0.6;
+}
+.dropdown-item:hover{
+	background-color:  #4d4d4d!important;
+	opacity: 1;
+}
+.display-1{
+	color: white !important;
+	font-size: 6rem !important;
+	line-height: 6rem !important;
+	border-left: 3rem solid rgba(187,20,20,0.1);
+	
+}
+.outline{
+	border-left: 6rem solid rgba(187,20,20,0.2);
+}
+.highlight{
+	color: #FFA322;
+}
+header img{
+	object-fit: cover;
+}
+
+@media(max-width: 960px){
+	.header{
+		height: 40vh !important;
+	}
+	.display-1{
+		font-size: 4rem !important;
+		line-height: 4rem !important;
+		border-left: 2rem solid rgba(187,20,20,0.1);
+	}
+	.outline{
+		border-left: 4rem solid rgba(187,20,20,0.2);
+	}
+}
+@media (max-width: 1024px){
+	.navbar .navbar-brand a{
+		font-size: calc(1rem + 3.3vw);
+	}
+}
+@media (max-width: 540px){
+	.navbar .navbar-brand a{
+		font-size: calc(0.5rem + 3.3vw);
+	}
+	.display-1{
+		font-size: 3.5rem !important;
+		line-height: 3.5rem !important;
+		border-left: 1.25rem solid rgba(187,20,20,0.1);
+	}
+	.outline{
+		border-left: 3.5rem solid rgba(187,20,20,0.2);
+	}
+}
+
+/*Painting*/
+.display-2{
+	font-family: 'Baskerville', serif;
+	letter-spacing: -3px;
+}
+.sub{
+	font-size: 0.8rem;
+	color: #a0a0a0;
+	letter-spacing: 5%;
+}
+.head{
+	font-size: 2.5rem !important;
+	font-family: 'Baskerville',serif;
+	line-height: 20px;
+}
+.card{
+	background-color: rgba(127,22,22,0) !important;
+	border: none !important;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+	border-radius: 0!important;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card-title{
+	font-size: 1.25rem !important;
+}
+.card-subtitle{
+	font-size: 0.8rem !important;
+}
+.card-text{
+	font-size: 0.8rem !important;
+	color: #333 !important;
+	font-weight: 300;
+}
+.card-img-top{
+	height: 17rem;
+	object-fit: cover;
+	border-radius: 0!important;
+	filter: saturate(0%) brightness(50%) contrast(80%);
+	transition: 0.2s ease-in-out;
+}
+.novel {
+	height: 17rem;
+	object-fit: contain;
+	background-color: rgba(4,33,52,0.1);
+	border-radius: 0!important;
+	filter: saturate(0%) brightness(70%) contrast(80%);
+	transition: 0.2s ease-in-out;
+}
+.card-link{
+	background-color: #202020;
+	color: white !important;
+	font-size: 0.7rem !important;
+	text-decoration: none !important;
+	font-weight: 300;
+	border-radius: 5px;
+	
+}
+.card-link2{
+	background-color: #202020;
+	color: white !important;
+	font-size: 1rem !important;
+	text-decoration: none !important;
+	font-weight: 300;
+	border-radius: 5px;
+	transition: 0.1s ease-in-out;
+}
+.title{
+	font-family: 'Baskerville', serif;
+	font-size: 2rem;
+}
+.author{
+	font-size: 0.9rem;
+	color: #303030;
+}
+.content{
+	font-size: 0.875rem;
+	line-height: 25px;
+	color: #333;
+}
+.card-link2:hover{
+	background-color: transparent;
+	border: 2px solid #202020;
+	color: #202020 !important;
+}
+.card:hover{
+	transform: scale(1.1);
+}
+.card:hover .card-img-top{
+	filter: saturate(100%) brightness(100%);
+}
+
+
+
+@media (max-width: 990px){
+	.card-img-top{
+		filter: saturate(100%) brightness(75%);
+	}
+}
+
+
+
+/*Architecture*/
+.blue{
+	background-color: rgba(4,33,52,0.1);
+	transition: 0.2s ease-in-out;
+}
+
+.blue img:hover {
+	filter: saturate(100%) brightness(100%);
+	
+	transform: scale(1.1);
+}
+.yellow:hover img{
+	filter: saturate(100%) brightness(100%);
+	
+}
+.yellow:hover{
+	transform: scale(1.1);
+}
+.yellow{
+	background-color: rgba(255,163,34,0.3);
+	transition: 0.2s ease-in-out;
+}
+.archi .card-title{
+	font-size: 1.1rem !important;
+}
+.archi .card-subtitle{
+	font-size: 0.9rem !important;
+}
+.archi .card-text{
+	font-size: 0.7rem !important;
+	font-style: italic;
+}
+.img_archi{
+	object-fit: cover;
+}
+
+@media(max-width: 990px){
+	.archi{
+		text-align: center;
+	}
+}
