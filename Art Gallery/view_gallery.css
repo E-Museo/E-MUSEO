@@ -1,7 +1,4 @@
-*{
-	margin: 0 !important;
-	padding: 0 !important;
-}
+
 body{
 	font-family: 'Poppins', sans-serif !important;
 	background-color: #0f0f0f !important;
@@ -32,13 +29,12 @@ body{
 .side_nav img{
 	border-radius: 50%;
 }
-
-/*navbar*/
+/*nav bar*/
 #holder .navbar{
-	background-color: #0f0f0f;
 }
 #holder .navbar-brand, .nav-link{
 	color: white !important;
+	font-size: 1rem !important;
 }
 #holder .nav-link{
 	font-weight: 400 !important;
@@ -46,10 +42,17 @@ body{
 	opacity: 0.8;
 }
 #holder .nav-link:hover{
-	opacity: 1;
+	opacity:1;
+}
+#holder .stick_nav:hover{
+	color:  #FFA322 !important;
+	opacity: 0.8;
 }
 #holder #nav_a{
 	font-weight: 700 !important;
+}
+#holder .navbar-brand img{
+	width: 50px;
 }
 #holder .navbar-toggler{
 	border-color: transparent;
@@ -68,21 +71,6 @@ body{
 #holder .dropdown-item:hover{
 	background-color:  #4d4d4d!important;
 	opacity: 1;
-}
-@media(max-width: 768px){
-	#holder .header{
-		height: 40vh !important;
-	}
-}
-@media (max-width: 1024px){
-	#holder .navbar .navbar-brand a{
-		font-size: calc(1rem + 3.3vw);
-	}
-}
-@media (max-width: 576px){
-	#holder .navbar .navbar-brand a{
-		font-size: calc(0.5rem + 3.3vw);
-	}
 }
 
 
@@ -106,10 +94,12 @@ body{
 	font-size: 0.9rem;
 	color: #FFA322;
 	font-weight: 300;
+	line-height: 0.3rem;
 }
 .deet2{
 	font-style: italic;
 	font-size: 0.8rem;
+	line-height: 0rem;
 	color: white;
 	font-weight: 300;
 	opacity: 0.8;
@@ -119,4 +109,8 @@ body{
 	color: #d0d0d0;
 	line-height: 1.563rem;
 	font-weight: 300 !important;
+}
+.h{
+	height: 40vh;
+	object-fit: cover;
 }
