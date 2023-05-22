@@ -129,6 +129,13 @@ body{
 	}
 	
 }
+.hove img{
+	transition: 0.2s ease-in-out;
+}
+
+.hove img:hover{
+	transform: scale(1.1);
+}
 
 .site-footer
 {
