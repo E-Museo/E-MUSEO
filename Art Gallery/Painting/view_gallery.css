@@ -1,77 +1,71 @@
-
+*{
+	padding: 0%;
+	margin: 0%;
+}
 body{
 	font-family: 'Poppins', sans-serif !important;
 	background-color: #0f0f0f !important;
+	overflow-x: hidden;
 }
-.side_nav{
-	background-color: #202020;
-	height: 100vh;
+/*navbar*/
+.navbar{
 }
-.navbar-nav{
-	color: white;
-	z-index: 2;
-}
-.nav_side .nav-item{
-	 -ms-transform:rotate(270deg); /* IE 9 */
-  -moz-transform:rotate(270deg); /* Firefox */
-  -webkit-transform:rotate(270deg); /* Safari and Chrome */
-  -o-transform:rotate(270deg); /* Opera */
-}
-.nav_side .nav-link{
-	font-weight: 300 !important;
-	font-size: 0.7rem !important;
-	letter-spacing: 1px;
-	opacity: 0.7;
-}
-.nav_side .nav-link:hover {
-	color: #FFA322 !important;
-}
-.side_nav img{
-	border-radius: 50%;
-}
-/*nav bar*/
-#holder .navbar{
-}
-#holder .navbar-brand, .nav-link{
+.navbar-brand, .nav-link{
 	color: white !important;
 	font-size: 1rem !important;
 }
-#holder .nav-link{
+.nav-link{
 	font-weight: 400 !important;
 	font-size: 0.875rem !important;
 	opacity: 0.8;
 }
-#holder .nav-link:hover{
+.nav-link:hover{
 	opacity:1;
 }
-#holder .stick_nav:hover{
+.stick_nav:hover{
 	color:  #FFA322 !important;
 	opacity: 0.8;
 }
-#holder #nav_a{
+#nav_a{
 	font-weight: 700 !important;
 }
-#holder .navbar-brand img{
+.navbar-brand img{
 	width: 50px;
 }
-#holder .navbar-toggler{
+.navbar-toggler{
 	border-color: transparent;
 }
-#holder .dropdown-menu{
+.dropdown-menu{
 	background-color: #3c3c3c!important;
 	border-radius: 0px !important;
 	border: none!important;
 }
-#holder .dropdown-item{
+.dropdown-item{
 	font-size: 0.8rem  !important;
 	color: white !important;
 	font-weight: 300!important;
 	opacity: 0.6;
 }
-#holder .dropdown-item:hover{
+.dropdown-item:hover{
 	background-color:  #4d4d4d!important;
 	opacity: 1;
 }
+.side{
+	background-color: rgba(15,15,15,0.3);
+}
+.nav_side .nav-item .nav-link{
+	transition: 0.2s ease-in-out;
+	opacity: 0.8;
+	font-size: 0.7rem !important;
+	color: #9a9a9a !important;
+	letter-spacing: 0.7px;
+}
+.nav_side .nav-item .nav-link:hover{
+	padding-left: 15%;
+	color:  #FFA322 !important;
+	opacity: 0.8;
+}
+
 
 
 /*content*/
@@ -109,8 +103,4 @@ body{
 	color: #d0d0d0;
 	line-height: 1.563rem;
 	font-weight: 300 !important;
-}
-.h{
-	height: 40vh;
-	object-fit: cover;
 }
